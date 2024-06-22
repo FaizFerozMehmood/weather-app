@@ -7,9 +7,10 @@ body {
 
 .weather-app {
     background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
 }
 
 #weather-result {
