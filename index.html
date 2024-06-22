@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="weather-app card text-center mt-5">
+                    <div class="card-body">
+                        <h1 class="card-title">Weather App</h1>
+                        <form id="weather-form">
+                            <div class="form-group">
+                                <label for="city-select">Select Tourist Destination</label>
+                                <select class="form-control" id="city-select" required>
+                                    <option value="">Choose a destination</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Get Weather</button>
+                        </form>
+                        <div id="weather-result" class="mt-4">
+                            <!-- Weather results will be displayed here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
