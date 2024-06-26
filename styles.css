@@ -1,12 +1,13 @@
 body {
     background: url('https://balti.pk/wp-content/uploads/2024/04/Kachura-Skardu-Baltistan-819x1024.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-size:cover;
     font-family: 'Arial', sans-serif;
-    color: white; /* Adjust text color for better readability */
+    color: white; 
+    
 }
 
 .weather-app {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background: rgb(0 0 0 / 50%); /* Semi-transparent background */
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
